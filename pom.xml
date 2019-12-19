@@ -9,6 +9,10 @@
 
   <name>october</name>
   <url>http://maven.apache.org</url>
+<scm>
+<developerConnection>scm:git:https://github.com/ExtracIT/December.git</developerConnection>
+<url>git:git://github.com:ExtracIT/December.git</url>
+</scm>
 
   <dependencies>
     <dependency>
@@ -18,5 +22,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+ <repository>
+  <id>extrac-release</id>
+  <name>extracit-release</name>
+  <url>http://localhost:8081/repository/extracit-release/</url>
+ </repository>
+<snapshotRepository>
+  <id>extrac-snapshot</id>
+  <name>ExtracIT</name>
+  <url>http://localhost:8081/repository/ExtracIT/</url>
+ </snapshotRepository>
+</distributionManagement>
 
 </project>
