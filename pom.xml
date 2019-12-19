@@ -10,7 +10,7 @@
   <name>october</name>
   <url>http://maven.apache.org</url>
 <scm>
-<developerConnection>scm:git:https://github.com/ExtracIT/December.git</developerConnection>
+<developerConnection>scm:git:git@github.com:ExtracIT/December.git</developerConnection>
 <url>git:git://github.com:ExtracIT/December.git</url>
 </scm>
 
