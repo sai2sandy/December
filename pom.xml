@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.orrbasystems</groupId>
-  <artifactId>october</artifactId>
+  <artifactId>december</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>october</name>
+  <name>December</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
@@ -18,5 +18,26 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+    <repositories>
+      <repository>
+	<id>orrba-snapshots</id>
+	<name>ExtractIT</name>
+	<url>http://localhost:8081/repository/ExtractIT/</url>
+	<snapshots>
+	 <enabled>true</enabled>
+	</snapshots>
+    </repository>
+    <repository>
+	<id>orrba-release</id>
+        <name>ExtractIT-release</name>
+        <url>http://localhost:8081/repository/ExtractIT-release/</url>
+        <snapshots>
+         <enabled>true</enabled>
+        </snapshots>
+    </repository>
+  </reposotories>
+</distributionManagement>
+
 
 </project>
