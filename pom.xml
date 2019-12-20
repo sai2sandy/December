@@ -19,7 +19,6 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-    <repositories>
       <repository>
 	<id>orrba-snapshots</id>
 	<name>ExtractIT</name>
@@ -36,8 +35,5 @@
          <enabled>true</enabled>
         </snapshots>
     </repository>
-  </reposotories>
 </distributionManagement>
-
-
 </project>
