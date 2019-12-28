@@ -19,21 +19,15 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-      <repository>
-	<id>orrba-snapshots</id>
-	<name>ExtractIT</name>
-	<url>http://localhost:8081/repository/ExtractIT/</url>
-	<snapshots>
-	 <enabled>true</enabled>
-	</snapshots>
-    </repository>
-    <repository>
-	<id>orrba-release</id>
+     <repository>
+        <id>orrba-release</id>
         <name>ExtractIT-release</name>
         <url>http://localhost:8081/repository/ExtractIT-release/</url>
-        <snapshots>
-         <enabled>true</enabled>
-        </snapshots>
-    </repository>
+     </repository>
+<snapshotRepository>
+        <id>orrba-snapshots</id>
+        <name>ExtractIT</name>
+        <url>http://localhost:8081/repository/ExtractIT/</url>
+</snapshotRepository>
 </distributionManagement>
 </project>
