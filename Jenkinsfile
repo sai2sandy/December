@@ -31,7 +31,7 @@ node {
    else {
     stage ('Install') {
         rtMaven.run pom: 'pom.xml', goals: 'install -DskipTests=true', buildInfo: buildInfo
-        sh "mvn clean install -DskipTests=true"
+        sh "mvn clean deploy -DskipTests=true"
        } 
      }
    }
